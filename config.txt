@@ -1,0 +1,19 @@
+// For best results the application should be run on the same machine as the server application
+// Batteleye and server info:
+host=127.0.0.1
+port=2302
+password=Recon_password_here
+
+// The message players see when the get kicked:
+reason=Not whitelisted!
+
+// The interval at which the online player are checked (in milliseconds, 1 second = 1000)
+interval=900000
+
+// MYSQL info:
+sqlHost=127.0.0.1
+sqlPort=3306
+sqlDatabase=whitelist
+sqlTable=whitelist
+sqlUser=whitelist
+sqlPassword=whitelist
